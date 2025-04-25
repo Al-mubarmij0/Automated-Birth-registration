@@ -19,17 +19,17 @@
             box-shadow: 0 0 10px rgba(0,0,0,0.05);
         }
         h3 {
-            color: #b58900;
+            color: rgb(64, 67, 243);;
             margin-bottom: 20px;
         }
         .btn-submit {
-            background-color: #ffcc00;
+            background-color:rgb(64, 67, 243);
             border: none;
             color: #333;
             font-weight: bold;
         }
         .btn-submit:hover {
-            background-color: #e6b800;
+            background-color: rgb(40, 41, 128);
         }
     </style>
 </head>

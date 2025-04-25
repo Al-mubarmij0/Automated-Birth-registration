@@ -10,7 +10,7 @@
         <div class="row justify-content-center">
             <div class="col-md-5">
                 <div class="card">
-                    <div class="card-header bg-warning text-center fw-bold">Admin Login</div>
+                    <div class="card-header bg-primary text-center fw-bold">Admin Login</div>
                     <div class="card-body">
                         @if($errors->any())
                             <div class="alert alert-danger">{{ $errors->first() }}</div>
@@ -25,7 +25,7 @@
                                 <label>Password</label>
                                 <input type="password" class="form-control" name="password" required>
                             </div>
-                            <button type="submit" class="btn btn-warning w-100">Login</button>
+                            <button type="submit" class="btn btn-primary w-100">Login</button>
                         </form>
                     </div>
                 </div>
